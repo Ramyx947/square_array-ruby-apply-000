@@ -4,3 +4,8 @@ def square_array(numbers)
   return result
  end
 
+
+def sqaure_array(numbers)
+  results = []
+  numbers.collect.with_index {|x,i| x[0...i]}
+end 
