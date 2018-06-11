@@ -4,8 +4,3 @@ def square_array(numbers)
   return result
  end
 
-
-def square_array(numbers)
-  results = []
-  numbers.collect!.with_index {|n| result << n**2}
-end 
