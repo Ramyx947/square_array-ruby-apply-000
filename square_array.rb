@@ -7,5 +7,5 @@ def square_array(numbers)
 
 def square_array(numbers)
   results = []
-  numbers.collect.with_index {|n| result << n**2}
+  numbers.collect!.with_index {|n| result << n**2}
 end 
